@@ -1,0 +1,80 @@
+@charset "utf-8";
+body{
+    width:100%;height:auto;
+    background:url(../images/process_bg.png);
+    .quickBox{
+        display:none;
+        width:70px;height:46px;
+        border-radius:15px;
+        border:1px solid #104962;
+        background-color:#fff;
+        .quick{
+                a{
+                    display:block;
+                    font:20px/46px 'trebuc';
+                    text-align: center;
+                }   
+        }
+        position: fixed;
+        right:100px;top:822px;
+        &:hover{background-color:#104962;.quick{a{color:#fff;}}}
+    }
+    #conBox{
+        width:1240px;margin:auto;margin-top:232px;
+        background-color:rgba(247,247,247,0.5);
+        #con1{
+            width:100%;
+            height:761px;
+            position:relative;
+            h2{
+                position:absolute;left:38px;top:12px;
+                font:45px/60px 'trebuc';color:#104962;
+            }
+            .text{
+                position:absolute;left:157px;top:377px;
+                h3{
+                    font:50px/60px '굴림';color:#104962;
+                }
+                p{font:18px/24px '굴림';color:#424242;}
+            }
+            .macImg{
+                position:absolute;left:503px;top:39px;
+            }
+            .wheel{
+                display:none;
+            }
+        }
+        #con2{
+            width:100%;
+            height:521px;
+            .con2L{
+                width:50%;
+                float:left;
+                text-align: center;
+                h3{
+                    font:50px/150px 'trebuc';color:#424242;
+                }
+            }
+            .con2R{
+                width:50%;
+                float:right;
+                text-align: center;
+                h3{
+                    font:50px/150px 'trebuc';color:#424242;
+                }
+            }
+        }
+        #con3{
+            width:100%;
+            height:361px;
+            text-align: center;
+            padding-top:81px;box-sizing:border-box;
+            h3{
+                font:50px/105px 'trebuc';color:#526f7b;
+            }
+            p{
+                font:20px/30px 'HY견고딕';color:#494949;
+            }
+        }
+    }
+}

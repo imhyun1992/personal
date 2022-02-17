@@ -1,0 +1,104 @@
+@charset "utf-8";
+body {
+  width: 100%;
+  height: auto;
+  background: url(../images/process_bg.png);
+}
+body .quickBox {
+  display: none;
+  width: 70px;
+  height: 46px;
+  border-radius: 15px;
+  border: 1px solid #104962;
+  background-color: #fff;
+  position: fixed;
+  right: 100px;
+  top: 822px;
+}
+body .quickBox .quick a {
+  display: block;
+  font: 20px/46px 'trebuc';
+  text-align: center;
+}
+body .quickBox:hover {
+  background-color: #104962;
+}
+body .quickBox:hover .quick a {
+  color: #fff;
+}
+body #conBox {
+  width: 1240px;
+  margin: auto;
+  margin-top: 232px;
+  background-color: rgba(247, 247, 247, 0.5);
+}
+body #conBox #con1 {
+  width: 100%;
+  height: 761px;
+  position: relative;
+}
+body #conBox #con1 h2 {
+  position: absolute;
+  left: 38px;
+  top: 12px;
+  font: 45px/60px 'trebuc';
+  color: #104962;
+}
+body #conBox #con1 .text {
+  position: absolute;
+  left: 157px;
+  top: 377px;
+}
+body #conBox #con1 .text h3 {
+  font: 50px/60px '굴림';
+  color: #104962;
+}
+body #conBox #con1 .text p {
+  font: 18px/24px '굴림';
+  color: #424242;
+}
+body #conBox #con1 .macImg {
+  position: absolute;
+  left: 503px;
+  top: 39px;
+}
+body #conBox #con1 .wheel {
+  display: none;
+}
+body #conBox #con2 {
+  width: 100%;
+  height: 521px;
+}
+body #conBox #con2 .con2L {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+body #conBox #con2 .con2L h3 {
+  font: 50px/150px 'trebuc';
+  color: #424242;
+}
+body #conBox #con2 .con2R {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+body #conBox #con2 .con2R h3 {
+  font: 50px/150px 'trebuc';
+  color: #424242;
+}
+body #conBox #con3 {
+  width: 100%;
+  height: 361px;
+  text-align: center;
+  padding-top: 81px;
+  box-sizing: border-box;
+}
+body #conBox #con3 h3 {
+  font: 50px/105px 'trebuc';
+  color: #526f7b;
+}
+body #conBox #con3 p {
+  font: 20px/30px 'HY견고딕';
+  color: #494949;
+}

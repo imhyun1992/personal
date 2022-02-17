@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+/*body 1920px*/
+body {
+  width: 100%;
+  height: auto;
+  background: url(../images/main_bg.png) no-repeat;
+}

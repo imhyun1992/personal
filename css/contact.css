@@ -1,0 +1,64 @@
+@charset "utf-8";
+body {
+  background: url(../images/contact_bg.png) no-repeat;
+  background-size: cover;
+}
+body #contact a {
+  color: #0078ac;
+}
+body .wrap {
+  width: 1200px;
+  height: 612px;
+  margin: auto;
+  margin-top: 231px;
+  background-color: #f4e5e5;
+  padding-top: 55px;
+  box-sizing: border-box;
+}
+body .wrap h1 {
+  margin-left: 38px;
+  font: bold 45px 'trebuc';
+  color: #104962;
+}
+body .wrap .contents {
+  margin-top: 32px;
+}
+body .wrap .contents p {
+  font: bold 25px 'trebuc';
+  color: #333;
+}
+body .wrap .contents .conL {
+  margin-left: 234px;
+  float: left;
+  margin-right: 84px;
+}
+body .wrap .contents .conL div {
+  margin-top: 20px;
+}
+body .wrap .contents .conR {
+  height: auto;
+  padding-top: 60px;
+  box-sizing: border-box;
+}
+body .wrap .contents .conR p {
+  margin-bottom: 50px;
+  text-indent: 71px;
+  height: 56px;
+  line-height: 56px;
+}
+body .wrap .contents .conR .phone {
+  background: url(../images/phone.png) no-repeat;
+  background-position: 587px 0;
+}
+body .wrap .contents .conR .gmail {
+  background: url(../images/gmail.png) no-repeat;
+  background-position: 587px 0;
+}
+body .wrap .contents .conR .kakao {
+  background: url(../images/kakao.png) no-repeat;
+  background-position: 587px 0;
+}
+body .wrap .contents .conR .map {
+  background: url(../images/map.png) no-repeat;
+  background-position: 587px 0;
+}

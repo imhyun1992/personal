@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* reset */
+body,header,ul,li,div,h1,h2,h3,h4,h5,p,iframe,footer{margin:0;padding:0;}
+ul{list-style:none;}
+a{text-decoration:none;color:#333;}
+img{border:0;vertical-align:top;}
+
+/*font*/
+@font-face{
+    font-family:이순신 돋움체;
+    src:url('../font/woff/이순신돋움체B.woff') format('woff')
+}
+@font-face{
+    font-family:여기어때;
+    src:url('../font/woff/Jalnan.woff') format('woff')
+}
+@font-face{
+    font-family:나눔바른고딕;
+    src:url('../font/woff/NanumBarunGothic.woff') format('woff')
+}
+@font-face{
+    font-family:HY견고딕;
+    src:url('../font/woff/H2GTRE.TTF.woff') format('woff')
+}
+
+@font-face{
+    font-family:trebuc;
+    src:url('../font/woff/trebuc.woff') format('woff')
+}
+
+@font-face{
+    font-family:free3of9;
+    src:url('../font/woff/free3of9.woff') format('woff')
+}
+@font-face{
+    font-family:HY그래픽;
+    src:url('../font/woff/H2GPRM.woff') format('woff')
+}
+
+body{
+    header{
+        width:100%;
+        height:72px;
+        position:absolute;
+        top:92px;
+        // padding-left:150px;
+        padding-left:7.8125%;
+        // padding-right:162px;
+        padding-right:8.4375%;
+        box-sizing: border-box;
+        .logo{
+            float:left;
+            margin-top:6px;
+        }
+        #menu{
+            float:right;
+            // width:750px;
+            width:46.7%;
+            li{
+                float:left;
+                margin-right:88px;
+                // margin-right:8%;
+                a{
+                    font-size:25px;
+                    font-family:'trebuc';
+                    line-height:72px;
+                    &:hover{color:#0078ac;}
+                }
+                &:last-child{
+                    margin-right:0;
+                    a{
+                        width:121px;height:61px;
+                        display:block;
+                        // background:url(../images/menu.png) no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}

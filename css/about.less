@@ -1,0 +1,164 @@
+@charset "utf-8";
+body{
+    width:100%;height:auto;
+    background:url(../images/about_bg.png);
+    #about{a{color:#0078ac;}}
+    .quickBox{
+        display:none;
+        width:70px;height:46px;
+        border-radius:15px;
+        border:1px solid #104962;
+        background-color:#fff;
+        .quick{
+                a{
+                    display:block;
+                    font:20px/46px 'trebuc';
+                    text-align: center;
+                }   
+        }
+        position: fixed;
+        right:100px;top:822px;
+        &:hover{background-color:#104962;.quick{a{color:#fff;}}}
+    }
+    .box1290{width:1290px;margin:auto;box-sizing:border-box;}
+    #wrap{
+        .contents{
+            width:100%;height:100vh;
+            box-sizing: border-box;
+        }
+        .s1{/*ABOUT ME*/
+            padding-top:232px;
+            .conBox{
+                width:100%;height:696px;
+                background-color:rgba(0,120,172,0.1);
+                .box1290{
+                    padding-left:27px;
+                    h1{font:100px/138px 'trebuc';color:#0078ac;}
+                }
+                .contentAbout{
+                    .aboutL{width:auto;float:left;margin-right:200px;}
+                    .aboutR{
+                        float:left;margin-top:100px;
+                        h3{height:46px;font:30px/46px 'trebuc';color:#494949;border-bottom:2px solid #494949;width:400px;}
+                        article{font:25px/35px 'HY견고딕';color:#494949;margin-top:37px;}
+                    }
+                }
+            }
+        }
+        .s2{/*I AM*/
+            height:682px;
+            .box1290{
+                padding-top:100px;
+                padding-left:27px;
+                h1{
+                    width:221px;height:104px;
+                    font:100px/104px 'trebuc';color:#fff;background-color:#0078ac;
+                    margin-bottom:50px;
+                }
+                .contentIam{
+                    .iamL{float:left;font:20px/30px 'HY견고딕';color:#494949;}
+                    .iamR{
+                        float:right;font:20px/30px 'HY견고딕';color:#494949;
+                        .table{
+                            margin-top:-80px;
+                            .tableText{
+                                p{height:35px;margin-top:10px;}
+                                .tableBar{width:541px;height:20px;background-color:#fbfbfb;border:1px solid #cdcddc;box-sizing: border-box;}
+                                .tableInbar{height:100%;background-color:#0078ac;}
+                                .t1{width:487px;}
+                                .t2{width:460px;}
+                                .t3{width:514px;}
+                                .t4{width:360px;}
+                                .t5{width:460px;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .s3{/*My Skills*/
+            height:449px;
+            .box1290{
+                h1{
+                    width:432px;height:86px;
+                    margin:auto;
+                    margin-bottom:62px;
+                    background-color:#0078ac;
+                    color:#fff;font:50px/86px 'trebuc';
+                    text-align: center;
+                }
+                .skillBg{
+                    width:100%;height:301px;
+                    background:url(../images/skills_bg.png) no-repeat;
+                    color:#fff;
+                    .skillList{/*ul*/
+                        text-align:center;
+                        height:100%;
+                        .list{/*li*/
+                            float:left;
+                            height:100%;
+                            box-sizing: border-box;
+                            padding-top:140px;
+                            transition:0.5s;
+                            .skillsTitle{
+                                font:20px 'trebuc';
+                                // margin-top:140px;
+                            }
+                            .skillSub{/*ul*/
+                                display:none;
+                                li{
+                                    margin-top:40px;
+                                    p{font:15px/20px 'HY그래픽';}
+                                }
+                            }
+                        }
+                        .design{width:430px;border-right:1px solid rgba(255,255,255,0.2);}
+                        .html{width:428px;border-right:1px solid rgba(255,255,255,0.2);}
+                        .jquery{width:430px;}
+                        .on{
+                            padding-top:90px;
+                            background-color:rgba(0,0,0,0.2);
+                        }
+                    }
+                }
+            }
+        }
+        .s4{/*strong*/
+            .box1290{padding-top:157px;width:1290px;
+                h1{
+                    width:769px;height:86px;margin:auto;
+                    background-color:#0078ac;
+                    color:#fff;font:50px/86px 'trebuc';
+                    text-align: center;
+                    margin-bottom:30px;
+                }
+                .strong{
+                    width:100%;height:26px;
+                    margin:auto;
+                    font:20px/26px 'HY그래픽';
+                    text-align: center;
+                }
+                .object{
+                    margin-top:60px;
+                    color:#fff;
+                    width:320px;height:425px;
+                    float:left;text-align: center;
+                    .blackBox{
+                        display:none;
+                        width:100%;height:100%;
+                        background-color:rgba(0,0,0,0.7);
+                        padding-top:250px;
+                        box-sizing: border-box;
+                        transition:0.5s;
+                        p{font:25px 'trebuc';margin-bottom:67px;}
+                        article{font:15px 'HY그래픽';}
+                    }
+                    .objectOn{padding-top:130px;}
+                }
+                .harmony{background:url(../images/harmony.png);}
+                .challange{background:url(../images/challange.png);margin-left:165px;}
+                .arrange{background:url(../images/arrange.png);float:right;}
+            }
+        }
+    }
+}
